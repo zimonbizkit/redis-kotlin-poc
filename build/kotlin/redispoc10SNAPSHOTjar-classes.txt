@@ -1,0 +1,1 @@
+/Users/eduardsimon/Projects/redis-poc/build/classes/kotlin/main/MainKt.class

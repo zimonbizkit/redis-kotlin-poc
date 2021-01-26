@@ -1,0 +1,14 @@
+version: '3'
+services:
+  redis:
+    image: redis:6.0.0
+    container_name: redis
+    hostname: redispoc
+    networks:
+      mynet:
+    ports:
+      - "6379:6739"
+
+networks:
+  mynet:
+    driver: bridge
